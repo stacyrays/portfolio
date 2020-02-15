@@ -227,7 +227,7 @@ button {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
   button {
     width: 100%;
     margin-bottom: 18px;
@@ -240,5 +240,12 @@ button {
   section {
     padding-left: 8%;
     padding-right: 8%;
+  }
+  .bio {
+    padding-bottom: 21px;
+  }
+
+  .project-container {
+    margin-top: 50px;
   }
 }
