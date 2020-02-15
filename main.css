@@ -192,8 +192,7 @@ button {
   margin-top: 0;
   text-align: left;
 }
-.desc p {
-}
+
 .project-img {
   width: 50%;
 }
@@ -213,10 +212,6 @@ button {
   .project-container {
     width: 100%;
   }
-  main {
-    /*padding-left: 6%;
-    padding-right: 6%;*/
-  }
 
   .project-img {
     width: 100%;
@@ -229,5 +224,21 @@ button {
 
   .bio p {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  button {
+    width: 100%;
+    margin-bottom: 18px;
+  }
+  .desc {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  section {
+    padding-left: 8%;
+    padding-right: 8%;
   }
 }
