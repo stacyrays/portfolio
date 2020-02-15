@@ -64,41 +64,12 @@ nav span {
   color: #e4572e;
 }
 
-.bio {
-  display: flex;
-  flex-direction: row;
-}
-
-section.bio {
-  padding-right: 0;
-}
-
-.content {
-  background: #000;
-  width: 70%;
-  min-height: 700px;
-  padding-right: 30px;
-}
-
-.bio p {
-  width: 50%;
-}
-
 header {
   background: url(images/background/img_home_1920x1080.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 700px;
   background-color: #000;
-}
-
-.bgimage {
-  background: url(images/background/img_bio_1920x1080.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 700px;
-  background-color: #000;
-  width: 100%;
 }
 
 main {
@@ -134,29 +105,33 @@ a:hover {
   color: #ffffff;
   opacity: 0.8;
 }
+.bio {
+  display: flex;
+  flex-direction: row;
+}
 
-footer {
+section.bio {
+  padding-right: 0;
+}
+
+.content {
+  background: #000;
+  width: 70%;
+  min-height: 700px;
+  padding-right: 30px;
+}
+
+.bio p {
+  width: 50%;
+}
+
+.bgimage {
+  background: url(images/background/img_bio_1920x1080.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  background-color: #000;
   width: 100%;
-  bottom: 0%;
-  text-align: center;
-  padding: 30px;
-  font-size: 0.75em;
-  color: #fff;
-  background-color: #252525;
-}
-
-footer p {
-  opacity: 0.3;
-  text-align: center;
-}
-
-footer a {
-  display: block;
-  margin-bottom: 6px;
-}
-
-.footer-links {
-  margin-bottom: 20px;
 }
 
 h1.inside {
@@ -225,6 +200,30 @@ button {
 
 .project-container button {
   display: inline;
+}
+
+footer {
+  width: 100%;
+  bottom: 0%;
+  text-align: center;
+  padding: 30px;
+  font-size: 0.75em;
+  color: #fff;
+  background-color: #252525;
+}
+
+footer p {
+  opacity: 0.3;
+  text-align: center;
+}
+
+footer a {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.footer-links {
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 1200px) {
