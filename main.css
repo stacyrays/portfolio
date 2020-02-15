@@ -252,6 +252,7 @@ button {
   .bio p {
     width: 100%;
     padding-left: 60px;
+    padding-right: 30px;
   }
   .content {
     padding-bottom: 60px;
