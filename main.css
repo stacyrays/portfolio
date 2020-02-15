@@ -240,6 +240,10 @@ button {
     min-height: auto;
   }
 
+  .bgimage {
+    background: url(images/background/img_bio_1200x1080.jpg);
+  }
+
   .project-img {
     width: 100%;
   }
@@ -268,7 +272,7 @@ section.bio {
   padding-left: 60px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   button {
     width: 100%;
     margin-bottom: 18px;
