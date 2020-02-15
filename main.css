@@ -300,4 +300,10 @@ section.bio {
   header {
     background: url(images/background/img_home_800x1080.jpg);
   }
+  footer {
+    font-size: 18px;
+  }
+  footer a {
+    margin-bottom: 20px;
+  }
 }
