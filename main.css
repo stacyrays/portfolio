@@ -267,7 +267,7 @@ section.bio {
   padding-left: 60px;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
   button {
     width: 100%;
     margin-bottom: 18px;
@@ -277,6 +277,9 @@ section.bio {
     margin-left: 0;
   }
 
+  .bgimage {
+    background: url(images/background/img_bio_800x1080.jpg);
+  }
   section {
     padding-left: 8%;
     padding-right: 8%;
