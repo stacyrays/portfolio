@@ -32,6 +32,7 @@ h1 {
 
 h2 {
   font-size: 2em;
+  color: #e4572e;
 }
 
 h3 {
@@ -129,7 +130,6 @@ a:hover {
   padding-bottom: 30px;
 }
 
-.bio h2,
 .bio p {
   color: #ffffff;
   opacity: 0.8;
