@@ -232,6 +232,10 @@ button {
     width: 100%;
   }
 
+  header {
+    background: url(images/background/img_home_1200x1080.jpg);
+  }
+
   .bio {
     flex-direction: column;
   }
@@ -282,9 +286,6 @@ section.bio {
     margin-left: 0;
   }
 
-  .bgimage {
-    background: url(images/background/img_bio_800x1080.jpg);
-  }
   section {
     padding-left: 8%;
     padding-right: 8%;
