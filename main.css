@@ -304,6 +304,6 @@ section.bio {
     font-size: 18px;
   }
   footer a {
-    margin-bottom: 20px;
+    padding-bottom: 16px;
   }
 }
