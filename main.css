@@ -64,12 +64,23 @@ nav span {
   color: #e4572e;
 }
 
+@keyframes unBlur {
+  from {
+    filter: blur(6px);
+  }
+  to {
+    filter: blur(0px);
+  }
+}
+
 header {
   background: url(images/background/img_home_1920x1080.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 700px;
   background-color: #000;
+  /*filter: blur(2px);*/
+  animation: unBlur 6s 0s 1;
 }
 
 main {
@@ -79,6 +90,28 @@ main {
 main h1 {
   padding-left: 6%;
   padding-right: 6%;
+}
+
+@keyframes blackblur {
+  to {
+    filter: blur(0px);
+  }
+  from {
+    filter: blur(8px);
+  }
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+header h1 {
+  animation: blackblur 4s 0s 1;
 }
 
 .top {
@@ -195,11 +228,18 @@ button {
   width: 50%;
 }
 .project-img img {
-  -webkit-box-shadow: 0px 0px 13px 3px rgba(0, 0, 0, 0.23);
-  box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+  transition: transform 0.2s;
   border-radius: 12px;
   width: 100%;
   height: auto;
+  cursor: pointer;
+}
+
+.project-img img:hover {
+  box-shadow: 0px 0px 30px 14px rgba(0, 0, 0, 0.1);
+  transform: scale(1.04);
 }
 
 .project-container button {
