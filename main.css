@@ -85,6 +85,7 @@ header {
 
 main {
   padding: 0;
+  background: #000;
 }
 
 main h1 {
@@ -130,7 +131,6 @@ a:hover {
 }
 
 .bio h2 {
-  padding-top: 60px;
   padding-bottom: 30px;
 }
 
@@ -149,6 +149,7 @@ a:hover {
 
 section.bio {
   padding-right: 0;
+  padding-bottom: 0;
 }
 
 .content {
@@ -188,9 +189,7 @@ p {
 }
 
 section {
-  padding-left: 6%;
-  padding-right: 6%;
-  margin-top: 60px;
+  padding: 60px 6% 60px 6%;
 }
 
 button {
@@ -206,6 +205,7 @@ button {
 }
 .projects {
   width: 100%;
+  background: #efefef;
 }
 
 .project-container {
