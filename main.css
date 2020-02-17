@@ -4,13 +4,14 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   color: #444;
   text-align: center;
   line-height: 1.5;
   margin: 0;
   background-color: #efefef;
 }
+
 h1,
 h2,
 h3 {
@@ -19,78 +20,24 @@ h3 {
   font-weight: 100;
 }
 
-h1.inside {
-  padding: 0;
-}
-
 h1 {
-  padding-top: 270px;
-  padding-bottom: 300px;
   font-size: 3em;
   color: #fff;
+  padding-top: 270px;
+  padding-bottom: 300px;
+  padding-left: 6%;
+  padding-right: 6%;
 }
 
 h2 {
   font-size: 2em;
   color: #e4572e;
+  padding-top: 30px;
 }
 
 h3 {
   font-size: 1.5em;
-}
-
-nav,
-footer {
-  padding: 1% 0;
-  background-color: #000;
-}
-
-nav {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.1);
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
-  text-align: left;
-  padding-left: 6%;
-  padding-right: 6%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #fff;
-}
-
-nav span {
-  color: #e4572e;
-}
-
-@keyframes unBlur {
-  from {
-    filter: blur(6px);
-  }
-  to {
-    filter: blur(0px);
-  }
-}
-
-header {
-  background: url(images/background/img_home_1920x1080.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 700px;
-  background-color: #000;
-  /*filter: blur(2px);*/
-  animation: unBlur 6s 0s 1;
-}
-
-main {
-  padding: 0;
-  background: #000;
-}
-
-main h1 {
-  padding-left: 6%;
-  padding-right: 6%;
+  color: #898989;
 }
 
 @keyframes blackblur {
@@ -115,9 +62,8 @@ header h1 {
   animation: blackblur 4s 0s 1;
 }
 
-.top {
-  padding-left: 6%;
-  padding-right: 6%;
+p {
+  text-align: left;
 }
 
 a {
@@ -130,72 +76,33 @@ a:hover {
   opacity: 0.7;
 }
 
-.bio h2 {
-  padding-bottom: 30px;
-}
-
-.design {
-  padding-top: 60px;
-}
-
-.bio p {
-  color: #ffffff;
-  opacity: 0.8;
-}
-.bio {
-  display: flex;
-  flex-direction: row;
-}
-
-section.bio {
-  padding-right: 0;
-  padding-bottom: 0;
-}
-
-.content {
-  background: #000;
-  width: 70%;
-  min-height: 700px;
-  padding-right: 30px;
-}
-
-.bio p {
-  width: 50%;
-}
-
-.bgimage {
-  background: url(images/background/img_bio_1920x1080.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 700px;
+nav,
+footer {
+  padding: 1% 0;
   background-color: #000;
-  width: 100%;
 }
 
-h1.inside {
+nav {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.1);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
   text-align: left;
+  padding: 20px 6%;
+  color: #fff;
 }
 
-h3 {
-  color: #898989;
-}
-
-p {
-  text-align: left;
-}
-
-.menu {
-  float: right;
-}
-
-section {
-  padding: 60px 6% 60px 6%;
+nav span {
+  color: #e4572e;
 }
 
 button {
-  width: 140px;
+  width: 100%;
   height: 40px;
   margin-right: 10px;
+  margin-bottom: 18px;
   font-size: 18px;
   border-radius: 4px;
   border: 0;
@@ -203,30 +110,57 @@ button {
   color: #252525;
   cursor: pointer;
 }
+
+@keyframes unBlur {
+  from {
+    filter: blur(6px);
+  }
+  to {
+    filter: blur(0px);
+  }
+}
+
+header {
+  background: url(images/background/img_home_800x1080.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  background-color: #000;
+  /*filter: blur(2px);*/
+  animation: unBlur 6s 0s 1;
+}
+
+main {
+  padding: 0;
+  background: #000;
+}
+
+section {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
 .projects {
   width: 100%;
   background: #efefef;
+  padding-bottom: 60px;
 }
 
 .project-container {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 70px;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 100%;
 }
 
 .desc {
-  text-align: left;
-  margin-left: 40px;
-  width: 43%;
-}
-.desc h2 {
-  margin-top: 0;
+  width: 100%;
+  margin-left: 0;
+  margin-top: 30px;
   text-align: left;
 }
 
-.project-img {
-  width: 50%;
-}
 .project-img img {
   box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.15);
   transition: box-shadow 0.3s ease-in-out;
@@ -246,6 +180,42 @@ button {
   display: inline;
 }
 
+.design {
+  padding-top: 60px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  height: auto;
+}
+
+.content {
+  background: #000;
+  padding: 30px 6%;
+}
+
+.bio h2 {
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+.bio p {
+  width: 100%;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.bio-img {
+  background: url(images/background/img_bio_800x1080.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  background-color: #898989;
+  width: 100%;
+}
+
 footer {
   width: 100%;
   bottom: 0%;
@@ -261,93 +231,73 @@ footer p {
   text-align: center;
 }
 
-footer a {
-  display: block;
-  margin-bottom: 6px;
+footer {
+  font-size: 1.2em;
 }
 
-.footer-links {
-  margin-bottom: 20px;
-}
-
-@media only screen and (max-width: 1200px) {
-  .project-container {
-    width: 100%;
-  }
-
+@media only screen and (min-width: 600px) {
   header {
     background: url(images/background/img_home_1200x1080.jpg);
   }
-
-  .bio {
-    flex-direction: column;
-  }
-  .content {
-    width: 100%;
-    min-height: auto;
-  }
-
-  .bgimage {
-    background: url(images/background/img_bio_1200x1080.jpg);
+  .project-container {
+    margin-top: 50px;
   }
 
   .project-img {
     width: 100%;
   }
+
+  button {
+    width: 140px;
+  }
+  .desc {
+    width: 100%;
+  }
+
+  section {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .bio-img {
+    background: url(images/background/img_bio_1200x1080.jpg);
+  }
+
+  footer {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  header {
+    background: url(images/background/img_home_1920x1080.jpg);
+  }
+  .project-container {
+    flex-direction: row;
+  }
+
+  .content {
+    width: 50%;
+    min-height: auto;
+  }
+
+  .project-img {
+    width: 50%;
+    margin-right: 30px;
+  }
   .desc {
     text-align: left;
-    padding-top: 30px;
-    width: 80%;
+    margin-top: 0;
+    width: 40%;
   }
 
   .bio p {
     width: 100%;
-    padding-left: 60px;
-    padding-right: 30px;
   }
   .content {
     padding-bottom: 60px;
   }
-}
-section.bio {
-  padding-left: 0;
-  height: auto;
-}
-
-.bio p {
-  width: 100%;
-  padding-left: 60px;
-}
-
-@media only screen and (max-width: 600px) {
-  button {
-    width: 100%;
-    margin-bottom: 18px;
-  }
-  .desc {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  section {
-    padding-left: 8%;
-    padding-right: 8%;
-  }
-  .bgimage {
-    background: url(images/background/img_bio_800x1080.jpg);
-    padding-bottom: 21px;
-  }
-
-  .project-container {
-    margin-top: 50px;
-  }
-  header {
-    background: url(images/background/img_home_800x1080.jpg);
-  }
-  footer {
-    font-size: 18px;
-  }
-  footer a {
-    padding-bottom: 16px;
+  .bio {
+    flex-direction: row;
   }
 }
