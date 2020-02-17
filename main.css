@@ -127,7 +127,11 @@ header {
   min-height: 700px;
   background-color: #000;
   /*filter: blur(2px);*/
-  animation: unBlur 6s 0s 1;
+  animation: unBlur 9s 0s 1;
+}
+
+nav {
+  animation: unBlur 3s 0s 1;
 }
 
 main {
