@@ -23,7 +23,7 @@ h3 {
 h1 {
   font-size: 3em;
   color: #fff;
-  padding-top: 270px;
+  padding-top: 470px;
   padding-bottom: 300px;
   padding-left: 6%;
   padding-right: 6%;
@@ -229,6 +229,11 @@ footer {
 footer p {
   opacity: 0.3;
   text-align: center;
+}
+
+footer a {
+  display: block;
+  margin-bottom: 20px;
 }
 
 footer {
