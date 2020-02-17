@@ -58,22 +58,6 @@ h3 {
   color: #898989;
 }
 
-header {
-  padding-top: 200px;
-}
-
-header button {
-  background-color: transparent;
-  color: white;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  width: 40%;
-  text-align: center;
-}
-
-header button:hover {
-  border: 2px solid rgba(255, 255, 255, 0.7);
-}
-
 p {
   text-align: left;
 }
@@ -136,10 +120,22 @@ header {
   background: url(images/background/img_home_800x1080.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 700px;
+  min-height: 800px;
   background-color: #000;
-  /*filter: blur(2px);*/
+  padding-top: 200px;
   animation: unBlur 9s 0s 1;
+}
+
+header button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  width: 40%;
+  text-align: center;
+}
+
+header button:hover {
+  border: 2px solid rgba(255, 255, 255, 0.7);
 }
 
 nav {
