@@ -52,7 +52,7 @@ h1 {
   padding-top: 60px;
   padding-left: 6%;
   padding-right: 6%;
-  animation: blackblur 4s 0s 1;
+  animation: unBlur 2s 0s 1;
 }
 
 h2 {
@@ -122,7 +122,7 @@ header {
   min-height: 800px;
   background-color: #000;
   padding-top: 200px;
-  animation: unBlur 6s 0s 1;
+  animation: unBlur 4s 0s 1;
 }
 
 header button {
