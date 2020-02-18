@@ -12,6 +12,7 @@ body {
   background-color: #efefef;
 }
 
+/* CSS animations */
 @keyframes blackblur {
   to {
     filter: blur(0px);
@@ -20,13 +21,20 @@ body {
     filter: blur(8px);
   }
 }
-
 @keyframes opacity {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
+  }
+}
+@keyframes unBlur {
+  from {
+    filter: blur(6px);
+  }
+  to {
+    filter: blur(0px);
   }
 }
 
@@ -105,15 +113,6 @@ button {
   background: #cdcdcd;
   color: #252525;
   cursor: pointer;
-}
-
-@keyframes unBlur {
-  from {
-    filter: blur(6px);
-  }
-  to {
-    filter: blur(0px);
-  }
 }
 
 header {

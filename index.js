@@ -6,6 +6,6 @@ $(function() {
   });
 
   $("header button").on("click", function() {
-    gsap.to(window, { duration: 2, scrollTo: ".projects" });
+    gsap.to(window, { duration: 1.5, scrollTo: ".projects" });
   });
 });
