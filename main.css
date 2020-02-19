@@ -146,6 +146,14 @@ button:focus {
   outline: 0;
 }
 
+button {
+  color: #3b3b3b;
+  background: #cdcdcd;
+}
+button:hover {
+  background: #b7b6b6;
+}
+
 main {
   padding: 0;
   background: #000;
