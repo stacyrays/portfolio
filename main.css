@@ -8,7 +8,7 @@ body {
   color: #444;
   line-height: 1.5;
   margin: 0;
-  background-color: #efefef;
+  background-color: #000;
 }
 
 /* CSS animations */
@@ -126,7 +126,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 800px;
-  background-color: #000;
   padding-top: 200px;
   animation: unBlur 4s 0s 1;
   text-align: center;
@@ -232,6 +231,10 @@ section {
   min-height: 700px;
   background-color: #898989;
   width: 100%;
+}
+
+.bio ul {
+  opacity: 0.8;
 }
 
 footer {
