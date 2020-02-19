@@ -6,7 +6,6 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   color: #444;
-  text-align: center;
   line-height: 1.5;
   margin: 0;
   background-color: #efefef;
@@ -59,11 +58,13 @@ h2 {
   font-size: 2em;
   color: #e4572e;
   padding-top: 30px;
+  text-align: center;
 }
 
 h3 {
   font-size: 1.5em;
   color: #898989;
+  text-align: left;
 }
 
 p {
@@ -96,10 +97,15 @@ nav {
   text-align: left;
   padding: 20px 6%;
   color: #fff;
+  animation: unBlur 3s 0s 1;
 }
 
 nav span {
   color: #e4572e;
+}
+
+ul {
+  color: white;
 }
 
 button {
@@ -123,6 +129,7 @@ header {
   background-color: #000;
   padding-top: 200px;
   animation: unBlur 4s 0s 1;
+  text-align: center;
 }
 
 header button {
@@ -130,7 +137,6 @@ header button {
   color: white;
   border: 2px solid rgba(255, 255, 255, 0.5);
   width: 40%;
-  text-align: center;
 }
 
 header button:hover {
@@ -139,10 +145,6 @@ header button:hover {
 
 button:focus {
   outline: 0;
-}
-
-nav {
-  animation: unBlur 3s 0s 1;
 }
 
 main {
@@ -184,6 +186,7 @@ section {
   width: 100%;
   height: auto;
   cursor: pointer;
+  width: 100%;
 }
 
 .project-img img:hover {
@@ -306,7 +309,7 @@ footer {
   }
 
   .content {
-    width: 50%;
+    width: 83%;
     min-height: auto;
   }
 
