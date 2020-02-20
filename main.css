@@ -140,6 +140,7 @@ header button {
 
 header button:hover {
   border: 2px solid rgba(255, 255, 255, 0.7);
+  background-color: transparent;
 }
 
 button:focus {
