@@ -136,6 +136,10 @@ ul {
   font-weight: 600;
 }
 
+.bold {
+  font-weight: 600;
+}
+
 header {
   background: url(images/background/img_home_800x1080.jpg);
   background-repeat: no-repeat;
