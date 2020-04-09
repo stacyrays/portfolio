@@ -160,6 +160,7 @@ header {
   font-size: 18px;
   border-radius: 4px;
   cursor: pointer;
+  display: none;
 }
 
 .btnheader:hover {
@@ -298,6 +299,7 @@ footer {
   .btnheader {
     width: 160px;
     height: 40px;
+    display: block;
   }
   .project-container {
     margin-top: 50px;
