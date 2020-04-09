@@ -24,19 +24,50 @@
       <h1>
         Hi, I'm Stacy Ray. <br />I like to design and code amazing products.
       </h1>
-      <button>View Projects</button>
+      <div class="btnheader">View Projects</button>
     </header>
     <main>
       <section class="projects">
         <h2>Javascript Projects</h2>
         <div class="project-container">
           <div class="project-img">
+            <a href="https://github.com/stacyrays/techdegree-project-9" target="_blank">
+            <img
+              src="images/projects/rest_api.png"
+              alt=""
+              width="580"
+              height="260"
+            /></a>
+          </div>
+          <div class="desc">
+            <h3>REST API App using Sequilize</h3>
+            <p>
+              For this project, I created a backend for a school database using
+              Sequilize to seed and interact with data. It authenticates a user
+              and you can view courses and add, update, and delete courses. You
+              can only delete a course if it belongs to you, as the
+              authenticated user. Also uses bcryptjs to hash user passwords.
+              Currently am working on the front-end in React and should have
+              that up soon.
+            </p>
+            <p><strong>Technologies:</strong> Javascript, Sequilize, Sqlite</p>
+            <a
+              href="https://github.com/stacyrays/techdegree-project-9"
+              class="btns"
+              target="_blank"
+              >View Github</a
+            >
+          </div>
+        </div>
+        <div class="project-container">
+          <div class="project-img">
+            <a href="https://stacyrays.github.io/quiz_app/" target="_blank">
             <img
               src="images/projects/quiz_app.png"
               alt=""
               width="580"
               height="260"
-            />
+            /></a>
           </div>
           <div class="desc">
             <h3>Yoga Quiz App</h3>
@@ -47,57 +78,29 @@
               code and also how to work with deeper conditional logic.
             </p>
             <p><strong>Technologies:</strong> Javascript, jQuery, HTML, CSS</p>
-            <button
-              onclick="window.location='https://stacyrays.github.io/quiz_app/';"
+            <a
+              href="https://stacyrays.github.io/quiz_app/"
+              class="btns"
+              target="_blank"
+              >View Demo</a
             >
-              View Demo
-            </button>
-            <button
-              onclick="window.location='https://github.com/stacyrays/quiz_app';"
+            <a
+              href="https://github.com/stacyrays/quiz_app"
+              class="btns"
+              target="_blank"
+              >View Github</a
             >
-              View Github
-            </button>
           </div>
         </div>
-        <div class="project-container">
-          <div class="project-img">
-            <img
-              src="images/projects/rest_api.png"
-              alt=""
-              width="580"
-              height="260"
-            />
-          </div>
-          <div class="desc">
-            <h3>REST API Application using Sequilize and Sqlite</h3>
-            <p>
-              In this project, I'm using Sequilize ORM to seed a database with
-              some initial data and to interact with the data. The content is of
-              a school database where there are routes setup to add users,
-              authenticate a user, view courses, and add and delete courses. You
-              can only delete a course if it belongs to you, as the
-              authenticated user. Also uses bcryptjs to hash user passwords. I
-              only have the backend for now (you can test functionality in a
-              tool like Postman), but am working on the front-end in React and
-              should have that up soon.
-            </p>
-            <p><strong>Technologies:</strong> Javascript, Sequilize, Sqlite</p>
 
-            <button
-              onclick="window.location='https://github.com/stacyrays/techdegree-project-9';"
-            >
-              View Github
-            </button>
-          </div>
-        </div>
         <div class="project-container">
           <div class="project-img">
-            <img
+            <a href="https://stacyrays.github.io/techdegree-project-4/" target="_blank"><img
               src="images/projects/phrase-hunter.png"
               alt=""
               width="580"
               height="260"
-            />
+            /></a>
           </div>
           <div class="desc">
             <h3>Phrase Hunter</h3>
@@ -106,22 +109,24 @@
               javascript. Go ahead, try to guess the phrase!
             </p>
             <p><strong>Technologies:</strong> Javascript, jQuery, HTML, CSS</p>
-            <button
-              onclick="window.location='https://stacyrays.github.io/techdegree-project-4/';"
+            <a
+              href="https://stacyrays.github.io/techdegree-project-4/"
+              class="btns"
+              target="_blank"
+              >View Demo</a
             >
-              View Demo
-            </button>
-            <button
-              onclick="window.location='https://github.com/stacyrays/techdegree-project-4';"
+            <a
+              href="https://github.com/stacyrays/techdegree-project-4"
+              class="btns"
+              target="_blank"
+              >View Github</a
             >
-              View Github
-            </button>
           </div>
         </div>
         <h2 class="design">Design Projects</h2>
         <div class="project-container">
           <div class="project-img">
-            <img src="images/projects/lz.png" alt="" width="580" height="260" />
+            <a href="https://labzero.com" target="_blank"><img src="images/projects/lz.png" alt="" width="580" height="260" /></a>
           </div>
           <div class="desc">
             <h3>My Company in Silicon Valley</h3>
@@ -133,9 +138,9 @@
               <strong>Technologies:</strong> Javascript, Sketch, Principle
               (animation tool)
             </p>
-            <button onclick="window.location='https://labzero.com';">
-              LZ Website
-            </button>
+            <a href="https://labzero.com" class="btns" target="_blank"
+              >LZ Website</a
+            >
           </div>
         </div>
         <div class="project-container">
@@ -192,7 +197,7 @@
           <h3>Education</h3>
           <ul>
             <li>
-              <strong>Purdue University</strong>
+              <strong><a class="link" href="https://www.iupui.edu/" target="_blank">IUPUI</a></strong>
               <ul>
                 <li>Web design & computer science</li>
                 <li>Bachelor degree</li>
@@ -201,7 +206,7 @@
             </li>
             <li>
               <strong
-                ><a
+                ><a class="link"
                   href="https://join.teamtreehouse.com/full-stack-javascript-techdegree/"
                   target="_blank"
                   >Treehouse</a
@@ -242,13 +247,13 @@
     </main>
     <footer>
       <div class="footer-links">
-        <a href="mailto:stacyrays@gmail.com">stacyrays@gmail.com</a>
-        <a
+        <a class="link" href="mailto:stacyrays@gmail.com">stacyrays@gmail.com</a>
+        <a class="link"
           href="https://www.linkedin.com/in/stacy-suits-7b687917/"
           target="_blank"
           >LinkedIn</a
         >
-        <a href="https://github.com/stacyrays" target="_blank">Github</a>
+        <a class="link" href="https://github.com/stacyrays" target="_blank">Github</a>
       </div>
       <p>©2020 stacyrays.com</p>
     </footer>
