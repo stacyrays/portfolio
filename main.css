@@ -74,7 +74,11 @@ p {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
+  color: #e4572e;
+}
+a:hover {
+  color: #ffffff;
 }
 
 a.link {
