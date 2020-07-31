@@ -75,10 +75,10 @@ p {
 
 a {
   text-decoration: underline;
-  color: #e4572e;
+  color: #fff;
 }
 a:hover {
-  color: #ffffff;
+  color: #e4572e;
 }
 
 a.link {
