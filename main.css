@@ -67,7 +67,7 @@ header p {
 h1 {
   font-size: 2.2em;
   color: #fff;
-  animation: unBlur 2s 0s 1;
+  animation: unBlur 2s 0s 0.5;
   font-weight: 500;
 }
 
@@ -124,7 +124,7 @@ nav {
   text-align: left;
   padding: 20px 6%;
   color: #fff;
-  animation: unBlur 3s 0s 1;
+  animation: unBlur 3s 0s 0.5;
   font-weight: 900;
 }
 
@@ -150,7 +150,7 @@ header {
   background-size: cover;
   min-height: 800px;
   padding-top: 200px;
-  animation: unBlur 4s 0s 1;
+  animation: unBlur 4s 0s 0.5;
   text-align: center;
 }
 
@@ -310,7 +310,7 @@ footer {
   h1 {
     font-size: 3em;
     color: #fff;
-    animation: unBlur 2s 0s 1;
+    animation: unBlur 2s 0s 0.5;
     font-weight: 500;
   }
 
@@ -379,7 +379,7 @@ footer {
   h1 {
     font-size: 6em;
     color: #fff;
-    animation: unBlur 2s 0s 1;
+    animation: unBlur 2s 0s 0.5;
     font-weight: 500;
   }
 
