@@ -14,17 +14,20 @@
       type="text/css"
       href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
   <body>
-    <nav>
+    <!--<nav>
       <div class="logo"><span>stacy ray </span>design + code</div>
-    </nav>
+    </nav>-->
     <header>
-      <h1>
-        Hi, I'm Stacy Ray. <br />I like to design and code amazing products.
-      </h1>
+      <div class="heroText-container"><h1>
+        design is
+        <span class="nature">nature</span>
+      </h1></div>
+      
+      <p class="header-p">hi, i’m stacy! i’m a software designer/engineer from the san francisco area. i love nature hikes and designing and coding great products :)</p>
       <div class="btnheader">View Projects</button>
     </header>
     <main>
@@ -37,11 +40,10 @@
           <div class="desc">
             <h3>Product, Design, and Development Agency</h3>
             <p>
-              LZ is the agency where I currently work. It is a design, product managament, and development consultant agency, where we work on projects for Fortune 100 companies. I contribute with ux design, visual design, and animation design.
+              LZ is a product, design, and development consulting agency where I worked for 5 years. The projects we worked on were for (up to) Fortune 10 companies. I contributed with ux, visual, and animation design of our main website and on client projects.
             </p>
             <p>
-              <span class="bold">Technologies:</span> Javascript, Sketch, Principle
-              (animation tool)
+              <span class="bold">Technologies:</span> XD, Figma, Sketch, Framer X, Javascript, HTML, CSS
             </p>
             <a href="https://labzero.com" class="btns bold" target="_blank"
               >LZ Website</a
@@ -90,7 +92,34 @@
             <p><span class="bold">Technologies:</span> Sketch, Framer X</p>
           </div>
         </div>
-        <h2>Javascript Projects</h2>
+        <br>
+        <h2>Code Projects</h2>
+
+        <div class="project-container">
+          <div class="project-img">
+            <a href="https://github.com/stacyrays/techdegree-project-9" target="_blank">
+            <img
+              src="images/projects/react-final.png"
+              alt=""
+              width="580"
+              height="260"
+            />
+          </a>
+          </div>
+          <div class="desc">
+            <h3>React App School Database</h3>
+            <p>
+              This is the React client side front-end view for the school database api of the next project. Contains forms for sign-in functionality as well as forms for creating/reading/updating/deleting the college courses. Uses React Router and Context (Provider and Consumer) to pass state data around the app.
+            </p>
+            <p><span class="bold">Technologies:</span> Javascript, Sequilize, Sqlite</p>
+            <a
+              href="https://github.com/stacyrays/techdegree-project-10"
+              class="btns bold"
+              target="_blank"
+              >View Github</a
+            >
+          </div>
+        </div>
         <div class="project-container">
           <div class="project-img">
             <a href="https://github.com/stacyrays/techdegree-project-9" target="_blank">
@@ -105,7 +134,7 @@
           <div class="desc">
             <h3>REST API App using Sequelize</h3>
             <p>
-              For this project, I created a backend for a school database using
+              This is the backend for a school database using
               Sequilize to seed and interact with data. It authenticates a user
               and you can view courses and add, update, and delete courses. You
               can only delete a course if it belongs to you, as the
@@ -227,9 +256,9 @@
           <h3>Education</h3>
           <ul>
             <li>
-              <strong><a class="link" href="https://www.iupui.edu/" target="_blank">IUPUI</a></strong>
+              <strong><a class="link" href="https://www.iupui.edu/" target="_blank">Indiana University</a></strong>
               <ul>
-                <li>Web design & computer science</li>
+                <li>Web design & computer science (CS classes hosted by Purdue University)</li>
                 <li>Bachelor degree</li>
                 <li>Graduated 2009</li>
               </ul>
@@ -237,17 +266,16 @@
             <li>
               <strong
                 ><a class="link"
-                  href="https://join.teamtreehouse.com/full-stack-javascript-techdegree/"
+                  href="https://teamtreehouse.com/techdegree/full-stack-javascript"
                   target="_blank"
-                  >Treehouse</a
-                >
-                Full Stack Javascript TechDegree</strong
-              >
+                  >Javascript Full Stack Bootcamp - Treehouse</a
+                ></strong>
+              
               <ul>
-                <li>Full-stack web developer program</li>
                 <li>
-                  <a href="https://www.credential.net/5cfcf6de-9141-4e3f-b239-fdc9080b50dc#gs.c7dblx" target="_blank" >Certificate</a> - completed July 2020
+                  Finished and earned my <a class="link" href="https://www.credential.net/5cfcf6de-9141-4e3f-b239-fdc9080b50dc#gs.c7dblx" target="_blank" >Certificate</a>
                 </li>
+                <li>Program focused on React, Node, Express, Sequelize, mysql, REST APIs, public API requests, Pug templating and Ruby on Rails   </li>
               </ul>
             </li>
           </ul>
@@ -256,15 +284,12 @@
             <li>San Francisco, CA</li>
           </ul>
           <p>
-            I currently work as a UX designer in San Francisco at a consulting
-            agency. Our clients are large tech companies, that I unfortunately
-            can't list here, but they are well known and call on us for help.
+            I am a UX designer and developer in San Francisco, currently doing consulting and freelance projects. My previous full time position was with Lab Zero. The clients there were large tech companies, that I unfortunately can't list here, but they are well known and called on us for help.
           </p>
           <p>
             My undergraduate degree is in design and computer science (Purdue
             University). To brush up on the latest technologies and to get more
-            experience in coding I am currently completing a fullstack
-            javascript bootcamp for software engineering at Treehouse.
+            experience in the latest Javascript technologies I have attended and completed a fullstack javascript bootcamp for software engineering at Treehouse.
           </p>
           <p>
             When I'm not coding or designing, I love to take my dog on hikes
