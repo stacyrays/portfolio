@@ -44,6 +44,10 @@ h3 {
   margin: 0;
 }
 
+p {
+  line-height: 1.8;
+}
+
 .heroText-container {
   margin: 0 auto;
   width: 100%;
@@ -52,7 +56,7 @@ h3 {
 
 .nature {
   font-size: 3.2em;
-  color: rgba(0, 113, 140, 0.8);
+  opacity: 0.2;
   font-weight: 900;
 }
 
@@ -62,6 +66,7 @@ header p {
   color: #fff;
   text-align: center;
   font-weight: 300;
+  font-size: 1.2em;
 }
 
 h1 {
@@ -319,7 +324,7 @@ footer {
     font-size: 3.2em;
     color: #fff;
     font-weight: 500;
-    opacity: 0.5;
+    opacity: 0.2;
   }
 
   header p {
@@ -385,6 +390,7 @@ footer {
 
   .nature {
     font-size: 2em;
+    opacity: 0.2;
   }
 
   .heroText-container {
