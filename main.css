@@ -363,10 +363,6 @@ footer {
     padding-right: 6%;
   }
 
-  .bio-img {
-    background: url(images/background/img_bio_1200x1080.jpg);
-  }
-
   footer {
     font-size: 1em;
   }
@@ -414,7 +410,7 @@ footer {
 
   .project-img {
     width: 50%;
-    margin-right: 30px;
+    margin-right: 50px;
   }
   .desc {
     text-align: left;
