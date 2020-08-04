@@ -5,7 +5,7 @@ $(function () {
     ease: Circ.easeOut,
   });
 
-  $("header .btnheader").on("click", function () {
+  $("header .btns").on("click", function () {
     gsap.to(window, { duration: 1.5, scrollTo: ".projects" });
   });
 });
