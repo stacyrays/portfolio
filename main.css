@@ -74,7 +74,7 @@ h1 {
 h2 {
   font-size: 2.5em;
   color: rgba(0, 113, 140, 0.8);
-  padding-top: 30px;
+  padding-top: 100px;
   text-align: center;
   font-weight: 900;
 }
@@ -217,7 +217,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 100px;
   width: 100%;
 }
 
@@ -244,7 +244,7 @@ section {
 }
 
 .design {
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 .bio {
@@ -336,7 +336,7 @@ footer {
     display: block;
   }
   .project-container {
-    margin-top: 50px;
+    margin-top: 100px;
   }
 
   .project-img {
