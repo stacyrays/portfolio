@@ -79,7 +79,7 @@ h1 {
 h2 {
   font-size: 2.5em;
   color: rgba(0, 113, 140, 0.8);
-  padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
   font-weight: 900;
 }
@@ -310,6 +310,11 @@ footer {
     color: #fff;
     animation: unBlur 1s 0s 0.5;
     font-weight: 400;
+  }
+
+  h2 {
+    padding-top: 100px;
+    padding-bottom: 0;
   }
 
   .btns {
