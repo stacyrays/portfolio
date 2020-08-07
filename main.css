@@ -269,11 +269,11 @@ section {
 }
 
 .bio-img {
-  background: url(images/background/img_bio_800x1080.jpg);
+  background: url(images/background/img_bio_1600x2160.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 700px;
-  background-color: #898989;
+  background-color: #000;
   width: 100%;
 }
 
